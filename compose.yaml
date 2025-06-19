@@ -36,3 +36,6 @@ services:
 
 #volumes:
   #database:
+
+# if you want to use persistence, use Volumes which is a location in local folder controlled by docker 
+# to persist data even when containers are deleted. Hence, uncomment the above lines to use Volumes.
